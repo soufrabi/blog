@@ -70,6 +70,9 @@ After partitioning is complete the directory structure should look like this
 Use genfstab command to generate `/etc/fstab`
 ```sh
 genfstab -U /mnt >> /mnt/etc/fstab
+
+# Check using
+cat /mnt/etc/fstab
 ```
 
 ### Keyring
@@ -92,9 +95,6 @@ pacman-key --populate archlinux
 Install base packages
 ```sh
 pacstrap -i /mnt base base-devel
-
-# Check using
-cat /mnt/etc/fstab
 ```
 
 Chroot 
@@ -103,6 +103,9 @@ arch-chroot /mnt
 ```
 
 Before installing packages install `nano` and `neovim`
+```sh
+sudo pacman -S --needed nano neovim
+```
 Uncomment the following line `/etc/pacman.conf`
 ```
 ParallelDownloads=5
@@ -268,4 +271,3 @@ Reflector
 ```sh
 reflector -c "India" -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 ```
-
