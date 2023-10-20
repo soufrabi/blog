@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My Blog",
+  "author": "Anirban Dey",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server --noHTTPCache -D --disableFastRender ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "hugo",
+    "deploy": "gh-pages -d public"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
