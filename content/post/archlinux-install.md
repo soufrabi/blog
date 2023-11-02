@@ -116,7 +116,7 @@ sudo pacman -S --needed nano neovim
 sudo pacman -S --needed linux linux-headers
 sudo pacman -S --needed linux-lts linux-lts-headers
 sudo pacman -S --needed linux-firmware sof-firmware
-sudo pacman -S --needed sudo
+sudo pacman -S --needed sudo # Should be in base-devel
 sudo pacman -S --needed openssh networkmanager wpa_supplicant wireless_tools netctl
 sudo pacman -S --needed ntfs-3g btrfs-progs exfatprogs lvm2
 sudo pacman -S --needed dialog
