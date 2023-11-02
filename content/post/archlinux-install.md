@@ -42,7 +42,7 @@ station wlan0 connect "SSID_value"
 
 
 
-### Partiion 
+### Partiion
 
 Use fdisk or cfdisk to partition the drives
 
@@ -62,6 +62,8 @@ After partitioning is complete the directory structure should look like this
 ```
 .
 └── mnt
+    ├── boot
+    │   └── efi
     ├── etc
     │   └── fstab
     └── home
@@ -94,25 +96,23 @@ pacman-key --populate archlinux
 
 Install base packages
 ```sh
-pacstrap -i /mnt base base-devel
+pacstrap -i /mnt base vi
 ```
 
-Chroot 
+Chroot
 ```sh
 arch-chroot /mnt
 ```
 
-Before installing packages install `nano` and `neovim`
-```sh
-sudo pacman -S --needed nano neovim
-```
-Uncomment the following line `/etc/pacman.conf`
+Uncomment the following line `/etc/pacman.conf` using vi editor
 ```
 ParallelDownloads=5
 ```
 
 Install Packages
 ```sh
+sudo pacman -S --needed base-devel
+sudo pacman -S --needed nano neovim
 sudo pacman -S --needed linux linux-headers
 sudo pacman -S --needed linux-lts linux-lts-headers
 sudo pacman -S --needed linux-firmware sof-firmware
@@ -186,7 +186,7 @@ Uncomment or add the following line
 
 Installing grub
 ```sh
-sudo pacman -S --needed grub os-prober dosfstools mtools 
+sudo pacman -S --needed grub os-prober dosfstools mtools
 ```
 
 
