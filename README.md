@@ -1,3 +1,3 @@
 # Blog
 
-Visit : [blog.anirbandey.net](https://blog.anirbandey.net)
+Visit : [blog.soufrabi.com](https://blog.soufrabi.com)
