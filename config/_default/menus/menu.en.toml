@@ -33,12 +33,12 @@
   name = "github"
   type = "social"
   weight = 1
-  url = "https://github.com/anirbandey1"
+  url = "https://github.com/soufrabi"
 [[social]]
   name = "gitlab"
   type = "social"
   weight = 2
-  url = "https://gitlab.com/anirbandey"
+  url = "https://gitlab.com/soufrabi"
 # [[social]]
 #   name = "twitter"
 #   weight = 3
@@ -47,10 +47,10 @@
   name = "linkedin"
   weight = 3
   url = "https://www.linkedin.com/in/anirbandey1"
-[[social]]
-  name = "discord"
-  weight = 4
-  url = "https://discord.gg/users/darklord.99"
+# [[social]]
+#   name = "discord"
+#   weight = 4
+#   url = "https://discord.gg/users/darklord.99"
 [[social]]
   name = "rss"
   weight = 4

@@ -2,7 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "My Blog",
-  "author": "Anirban Dey",
+  "author": "soufrabi",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
