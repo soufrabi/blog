@@ -9,7 +9,7 @@
     "dev": "hugo server --noHTTPCache -D --disableFastRender ",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "hugo",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages --no-history -d public"
   },
   "dependencies": {
     "gh-pages": "^6.0.0"
