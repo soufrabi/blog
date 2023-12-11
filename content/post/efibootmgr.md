@@ -22,7 +22,10 @@ tags:
 # comment: false # Disable comment if false.
 ---
 
-# efibootmgr
+Utility to edit UEFI boot entries
+<!--more-->
+
+
 
 List entries
 ```sh
