@@ -18,7 +18,7 @@ figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Technology
 tags:
-  - efibootmgr
+  - Linux
 # comment: false # Disable comment if false.
 ---
 
