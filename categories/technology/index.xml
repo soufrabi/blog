@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Blog</title>
+    <link>https://blog.soufrabi.com/categories/technology/</link>
+    <description>Recent content in Technology on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© soufrabi</copyright>
+    <lastBuildDate>Mon, 18 Dec 2023 08:51:44 +0530</lastBuildDate><atom:link href="https://blog.soufrabi.com/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fstab</title>
+      <link>https://blog.soufrabi.com/post/fstab/</link>
+      <pubDate>Mon, 18 Dec 2023 08:51:44 +0530</pubDate>
+      
+      <guid>https://blog.soufrabi.com/post/fstab/</guid>
+      <description>
+        
+          
+            &lt;p&gt;/etc/fstab configuration&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Grub</title>
+      <link>https://blog.soufrabi.com/post/grub/</link>
+      <pubDate>Wed, 13 Dec 2023 15:47:47 +0530</pubDate>
+      
+      <guid>https://blog.soufrabi.com/post/grub/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Configuring grub for a multi OS system&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Efibootmgr</title>
+      <link>https://blog.soufrabi.com/post/efibootmgr/</link>
+      <pubDate>Mon, 11 Dec 2023 22:07:27 +0530</pubDate>
+      
+      <guid>https://blog.soufrabi.com/post/efibootmgr/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Utility to edit UEFI boot entries&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Archlinux Install</title>
+      <link>https://blog.soufrabi.com/post/archlinux-install/</link>
+      <pubDate>Mon, 18 Sep 2023 13:29:39 +0530</pubDate>
+      
+      <guid>https://blog.soufrabi.com/post/archlinux-install/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Guide to install archlinux with minimal configuration&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

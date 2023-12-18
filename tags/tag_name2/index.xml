@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag_name2 on Blog</title>
+    <link>https://blog.soufrabi.com/tags/tag_name2/</link>
+    <description>Recent content in Tag_name2 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© soufrabi</copyright>
+    <lastBuildDate>Mon, 18 Dec 2023 08:51:44 +0530</lastBuildDate><atom:link href="https://blog.soufrabi.com/tags/tag_name2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fstab</title>
+      <link>https://blog.soufrabi.com/post/fstab/</link>
+      <pubDate>Mon, 18 Dec 2023 08:51:44 +0530</pubDate>
+      
+      <guid>https://blog.soufrabi.com/post/fstab/</guid>
+      <description>
+        
+          
+            &lt;p&gt;/etc/fstab configuration&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
