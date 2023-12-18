@@ -19,7 +19,6 @@ categories:
   - Technology
 tags:
   - linux
-  - Tag_name2
 # comment: false # Disable comment if false.
 ---
 
