@@ -187,6 +187,7 @@ Uncomment or add the following line
 Installing grub
 ```sh
 sudo pacman -S --needed grub os-prober dosfstools mtools
+sudo pacman -S --needed efibootmgr
 ```
 
 
