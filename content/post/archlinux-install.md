@@ -190,13 +190,13 @@ sudo pacman -S --needed grub os-prober dosfstools mtools
 ```
 
 
-Create `/boot/EFI` directory and mount the FAT32 filesystem in it
+Create `/boot/efi/EFI` directory and mount the FAT32 filesystem in it
 ```sh
-mkdir -p /boot/EFI
+mkdir -p /boot/efi/EFI
 ```
 
 ```sh
-# mount /dev/sda1 /boot/EFI
+# mount /dev/sda1 /boot/efi/EFI
 ```
 
 
